@@ -1,0 +1,29 @@
+= Overview
+
+Playground for kubernetes and integrating piplines/service meshes
+
+= Setup 
+
+= Requirements
+
+== Install
+=== Docker
+
+.On Windows, MacOs
+Install Docker Desktop
+
+=== Kind
+
+Using kind to create cluster
+
+.MacOs
+```shell
+brew install kind
+brew install kubectl
+```
+
+== Start a kubernetes cluster
+```shell
+kind create cluster --name playground
+```
+
